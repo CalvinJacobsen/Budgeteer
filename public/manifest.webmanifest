@@ -1,14 +1,14 @@
 {
   "short_name": "Bugeteer",
-  "name": "Web App Manifest Bugeteer",
+  "name": "Bugeteer Web App Manifest",
   "icons": [
     {
-      "src": "/assets/images/icons-192.png",
+      "src": "/icons/icons-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/icons-512.png",
+      "src": "/icons/icons-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
