@@ -16,9 +16,8 @@
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [Review and Contribute](#github)
+4. [Tests](#tests)
+5. [Review and Contribute](#github)
 --- 
 
 
@@ -26,14 +25,14 @@
 
 --- 
 
-The user will be able to add expenses and deposits to their budget with or without a connection.  When entering transactions offline, they should populate the total when brought back online.
+A simple app that uses web manifest technology to store and cache data offline, so you can use the application without worry that your data isn't going to be recorded.
 
 --- 
  
 ## <div align ='center'> <a name="installation"></a> **Installation** </div>
 --- 
  
-This app is deployed on heroku.  If you would like to download it locally the link to the repository is listed below.  When the repo is cloned, simply run an npm i to download the necessary dependencies.  To run the app input npm start.  The app should direct you to port 3000 for local development.
+You can download the repo locally via the link to the repository listed below.After you clone the repo, run an '$ npm i' in your bash terminal to download the necessary dependencies.  To run the app input npm start.  The app should direct you to port 3000 or the personally set port.
 
 --- 
 
@@ -41,20 +40,9 @@ This app is deployed on heroku.  If you would like to download it locally the li
 
 --- 
 
-<img src="assets/demo.png" align = "right" width="400px">
-
-The interface is pretty simple.  the input fields above include the name of your transaction, then the transaction amount.  If adding funds to your virtual checkbook, simply hit the add funds button, the opposite button to decrement the funds available.  To test its availability offline simply throttle it in the dev tools on Google Chrome.
+To use the interface, click on the plus or minus button to add or subtract funds from your buget. You'll put in your transaction, and the amount which will show the steps on the graph.  To test its availability offline simply throttle it in the dev tools on Google Chrome.
 
 --- 
-
-## <div align ='center'> <a name="contributing"></a> **Contributing** </div>
-
---- 
-
-License is attatched if you wish to contribute.
-
---- 
-
 
 ## <div align ='center'> **Review and contribute here**</div>
 
@@ -64,6 +52,6 @@ License is attatched if you wish to contribute.
 
 ### _Email:_ Jaco1932@umn.edu
 
-### _Heroku:_ [Budget Tracker]()
+### _Heroku:_ [Budget Tracker](https://bugeteer.herokuapp.com/)
 
 --- 
